@@ -4,6 +4,7 @@ import { ChapterLabel } from "@/components/ChapterLabel";
 import { ArenaCard } from "@/components/ArenaCard";
 import { WedgeIssueCard } from "@/components/WedgeIssueCard";
 import { SiteNav } from "@/components/SiteNav";
+import { ParallaxImage } from "@/components/ParallaxImage";
 
 import heroGlobe from "@/assets/hero-globe.jpg";
 import breachedFirewall from "@/assets/breached-firewall.jpg";
