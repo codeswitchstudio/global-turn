@@ -20,12 +20,11 @@ const Index = () => {
       {/* HERO — The Global Shift */}
       <ScrollSection id="hero" className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <ParallaxImage
             src={heroGlobe}
             alt="Golden wireframe globe on dark background representing a world in flux"
-            className="h-full w-full object-cover opacity-60"
-            width={1920}
-            height={1080}
+            className="opacity-60"
+            speed={0.2}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background" />
         </div>
@@ -96,13 +95,11 @@ const Index = () => {
       {/* SECTION 3 — Drivers of the Movement */}
       <ScrollSection id="drivers" className="relative py-32">
         <div className="absolute inset-0">
-          <img
+          <ParallaxImage
             src={driversMovement}
             alt="Protest movements and social unrest across the world"
-            className="h-full w-full object-cover opacity-20"
-            loading="lazy"
-            width={1920}
-            height={1080}
+            className="opacity-20"
+            speed={0.35}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background" />
         </div>
@@ -143,13 +140,11 @@ const Index = () => {
       {/* SECTION 4 — The Three Arenas */}
       <ScrollSection id="arenas" className="relative py-32">
         <div className="absolute inset-0">
-          <img
+          <ParallaxImage
             src={threeArenas}
             alt="Geopolitical map showing interconnected regions"
-            className="h-full w-full object-cover opacity-25"
-            loading="lazy"
-            width={1920}
-            height={1080}
+            className="opacity-25"
+            speed={0.4}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         </div>
